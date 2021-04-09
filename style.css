@@ -27,7 +27,16 @@ body {
 }
 
 .person {
+display: flex;
+align-items: flex-start;
+}
 
+.person__info {
+margin-bottom: 24px;
+}
+
+.person__picture {
+margin-right: 32px;
 }
 
 .person__name {
@@ -39,14 +48,11 @@ body {
 .person__position {
     font-size: 18px;
     color: #545454;
-    font-weight: lighter;
     font-style: italic;
-    margin-top: 0;
-    margin-bottom: 15px;
+    margin: 0;
 }
 
 .person__description {
-    width: 380px;
     font-size: 16px;
     line-height: 22px;
     margin: 0;

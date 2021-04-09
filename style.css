@@ -26,7 +26,9 @@ body {
     padding: 32px;
 }
 
-.person {}
+.person {
+
+}
 
 .person__name {
     font-size: 36px;
@@ -47,6 +49,10 @@ body {
     width: 380px;
     font-size: 16px;
     line-height: 22px;
+    margin: 0;
+}
+.person__description--with-margin {
+margin-bottom: 22px;
 }
 
 .special {
